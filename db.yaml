@@ -1,0 +1,5 @@
+host: 127.0.0.1               # Database is on same machine, i.e. local host
+user: root                    # My SQL username, as created when docker container was launched
+password: rootpassword        # My SQL password, as created when docker container was launched
+port: 3306                    # My SQL default port, as exposed when docker container was launched
+database: user_registration   # Database name, to be used later and as defined when docker container was launched
