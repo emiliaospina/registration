@@ -1,3 +1,10 @@
+## Logic
+    # 1. This file updates an existing user's email or password
+    # 2. It first checks whether the specified username exists in the database
+    # 3. It validates that only the allowed fields, email or password, can be updated
+    # 4. If the password is being changed, it asks for the current password, verifies it against the stored hash, and hashes the new password
+    # 5. It executes the UPDATE query, confirms whether the change was successful, and closes the connection properly
+
 from db_connection import get_db_connection
 import bcrypt
 

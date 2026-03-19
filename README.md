@@ -3,3 +3,16 @@ The goal of this assignment is to build a simple command-line user registration 
 
 Problem set description document: [Document Link](https://docs.google.com/document/d/1C0-vkygpJDE6BVTqVqehhI7Fgm3uyMytcfL9qjH7Qec/edit?usp=sharing).
 
+
+
+# User Registration System
+
+## Setup
+pip install -r requirements.txt
+
+## Run
+python main.py
+
+## Notes
+- MySQL runs in Docker container
+- db.yaml stores credentials

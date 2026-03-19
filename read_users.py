@@ -1,3 +1,10 @@
+## Logic
+    # 1. This file retrieves all user records from the users table
+    # 2. It connects to the database and executes a SELECT query to fetch user information
+    # 3. It excludes the password field from display for better security practice
+    # 4. It uses the rich library to display the results in a clean formatted table in the terminal
+    # 5. It handles the case where no users exist and closes the database connection at the end
+
 from db_connection import get_db_connection
 from rich.console import Console
 from rich.table import Table

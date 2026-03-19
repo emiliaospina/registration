@@ -1,3 +1,10 @@
+## Logic
+    # 1. This file is responsible for connecting Python to the MySQL server
+    # 2. It loads the database credentials from the db.yaml file using PyYAML
+    # 3. It defines a function to optionally connect either to the MySQL server only or to a specific database
+    # 4. It returns the connection object if successful, or None if the connection fails
+    # 5. A small test block at the bottom allows direct execution to verify that the connection works
+
 import yaml
 import mysql.connector
 from mysql.connector import Error

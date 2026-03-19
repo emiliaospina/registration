@@ -1,8 +1,9 @@
-# Logic for this section is:
-    # 1. Connect to database
-    # 2. Check whether the username exists
-    # 3. If it exists, delete it
-    # 4. If it does not exist, print a message
+## Logic
+    # 1. This file deletes a user from the users table based on the username
+    # 2. It first connects to the database and checks whether the specified user exists
+    # 3. If the user exists, it executes a DELETE query to remove the record
+    # 4. It confirms whether the deletion was successful using the number of affected rows
+    # 5. It handles the case where the username does not exist and closes the connection properly
 
 #Import packages
 from db_connection import get_db_connection

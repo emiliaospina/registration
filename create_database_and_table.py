@@ -1,3 +1,10 @@
+## Logic
+    # 1. This file creates the database and the users table required for the application
+    # 2. It first connects to the MySQL server without selecting a database, because the database may not exist yet
+    # 3. It creates the database if it does not already exist
+    # 4. It reconnects using the created database and then creates the users table
+    # 5. The table includes the required user fields and uses constraints such as primary key and unique values
+
 from db_connection import get_db_connection, load_db_config
 
 

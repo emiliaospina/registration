@@ -1,3 +1,10 @@
+## Logic
+    # 1. This file inserts a new user into the users table
+    # 2. It defines a helper function to hash passwords securely using bcrypt before storing them
+    # 3. It connects to the database and prepares an INSERT query with placeholders
+    # 4. It receives the user information, hashes the password, and inserts the new record
+    # 5. It handles insertion errors such as duplicate usernames or emails and closes the connection properly
+
 from db_connection import get_db_connection
 import bcrypt
 

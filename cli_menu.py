@@ -1,5 +1,5 @@
 ## Logic
-    # 1. tTe CLI menu follows the CRUD operations defined in the respective functions (create_user, read_users, update_user, delete_user).
+    # 1. The CLI menu follows the CRUD operations defined in the respective functions (create_user, read_users, update_user, delete_user).
     # 2. To do so it creates a loop that continuously displays the menu until the user chooses to exit.
     # 3. Inside the loop, it prompts the user for their choice and calls the appropriate function based on that choice.
     # 4. Each function interacts with the database to perform the desired operation, and the results are displayed using the rich library for better formatting.
