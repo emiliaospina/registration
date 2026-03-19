@@ -1,10 +1,11 @@
-# Logic:
-# 1. Import the Faker library and the create_user function from the create_user module.
-# 2. Define a function populate_users that takes an optional parameter n (default is 1000) which specifies the number of synthetic users to create.
-# 3. Inside the function, use a for loop to generate n synthetic users. For each user, generate a unique username, email, password, city, company, and job title using the Faker library.
-# 4. Call the create_user function with the generated user details to insert the user into the database.
-# 5. After the loop, print a message indicating that the synthetic users have been inserted successfully.
+## Logic:
+    # 1. Import the Faker library and the create_user function from the create_user module.
+    # 2. Define a function populate_users that takes an optional parameter n (default is 1000) which specifies the number of synthetic users to create.
+    # 3. Inside the function, use a for loop to generate n synthetic users. For each user, generate a unique username, email, password, city, company, and job title using the Faker library.
+    # 4. Call the create_user function with the generated user details to insert the user into the database.
+    # 5. After the loop, print a message indicating that the synthetic users have been inserted successfully.
 
+# Import packages
 from faker import Faker
 from create_user import create_user
 
