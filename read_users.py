@@ -18,7 +18,7 @@ def read_users():
     FROM users
     """
 
-    #Fetch all values, alert if empty
+    # Fetch all values, alert if empty
     try:
         cursor.execute(query)
         users = cursor.fetchall()
