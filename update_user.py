@@ -56,10 +56,10 @@ def update_user(username, field, new_value):
 
             # If correct, then hash new password
             new_value = hash_password(new_value)
-                # Build the update query
-                update_query = f"UPDATE users SET {field} = %s WHERE username = %s"
-                cursor.execute(update_query, (new_value, username))
-                conn.commit()
+            # Build the update query
+            update_query = f"UPDATE users SET {field} = %s WHERE username = %s"
+            cursor.execute(update_query, (new_value, username))
+            conn.commit()
 
         # Checks number of affected rows to confirm update
         if cursor.rowcount > 0:
